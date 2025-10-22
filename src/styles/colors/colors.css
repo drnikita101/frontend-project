@@ -1,4 +1,55 @@
 :root {
   --color-white: #e3e3e3;
   --color-black: #1d1d1d;
+
+  /* Основные цвета */
+  --primary-dark: #244d4d;
+  --primary-darker: #154444;
+  --primary-darkest: #051244;
+
+  /* Синие оттенки */
+  --blue-dark: #293688;
+  --blue-medium: #3c58bf;
+  --blue-light: #469bdb;
+  --navy-dark: #283b82;
+
+  /* Серые оттенки */
+  --black: #000;
+  --gray-darkest: #161616;
+  --gray-darker: #222;
+  --gray-dark: #242424;
+  --gray-medium: #383738;
+  --gray: #444;
+  --gray-mid: #666;
+  --gray-regular: #7f7f7f;
+  --gray-light: #808080;
+  --gray-lighter: #919090;
+  --gray-soft: #bababa;
+  --gray-softer: #c4c4c4;
+  --gray-pale: #d1cece;
+  --gray-very-pale: #d9dce5;
+  --gray-whisper: #dee4e2;
+
+  /* Голубые/бирюзовые */
+  --teal-dark: #305f64;
+  --teal-medium: #407980;
+  --teal-light: #859395;
+
+  /* Оранжевые/желтые */
+  --orange-bright: #ff5f00;
+  --orange-vivid: #ed7c00;
+  --orange-warm: #ef5423;
+  --orange-gold: #f7981d;
+  --orange-golden: #f79e1b;
+  --yellow-bright: #ffbc00;
+  --yellow-gold: #ffb624;
+
+  /* Красные */
+  --red-bright: #eb001b;
+
+  /* Белые и светлые */
+  --white: #fff;
+  --white-ice: #fcfbff;
+  --white-smoke: #f4f6f6;
+  --white-cloud: #ecf4ff;
 }
