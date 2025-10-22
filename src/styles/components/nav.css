@@ -1,0 +1,11 @@
+.nav {
+  padding-top: 44px;
+  padding-bottom: 26.85px;
+}
+
+.nav__lisst {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: var(--gray-darkest);
+}

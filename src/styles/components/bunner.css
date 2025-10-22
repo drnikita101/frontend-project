@@ -1,0 +1,40 @@
+.bunner {
+  background-color: var(--primary-darker);
+  display: flex;
+}
+
+.bunner__content {
+  width: 50%;
+
+  /* flex-grow: 1; */
+  padding-top: 101px;
+  padding-right: 18px;
+  padding-bottom: 137px;
+}
+
+.bunner__head {
+  font-size: 56px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.bunner__footer {
+  font-size: 20px;
+  line-height: 125%;
+  color: #fff;
+}
+
+.bunner__button {
+  margin-top: 35px;
+  background-color: #fff;
+}
+
+.bunner__media {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.bunner__image {
+  height: 100%;
+  object-fit: cover;
+}

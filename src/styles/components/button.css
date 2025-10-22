@@ -1,0 +1,15 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15.5px;
+  padding-left: 25.21px;
+  padding-right: 25.79px;
+}
+
+.button--bunner {
+  background-color: var(--white);
+  font-size: 20px;
+  line-height: 125%;
+  color: #154444;
+}
