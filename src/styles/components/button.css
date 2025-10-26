@@ -5,6 +5,9 @@
   padding: 15.5px;
   padding-left: 25.21px;
   padding-right: 25.79px;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
 }
 
 .button--bunner {
@@ -12,4 +15,8 @@
   font-size: 20px;
   line-height: 125%;
   color: #154444;
+
+  &:hover {
+    background-color: #919090;
+  }
 }
