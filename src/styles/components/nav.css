@@ -9,3 +9,7 @@
   gap: 50px;
   color: var(--gray-darkest);
 }
+
+.nav__link:hover {
+  text-decoration: underline;
+}
