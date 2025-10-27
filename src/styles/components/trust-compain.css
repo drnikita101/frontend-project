@@ -1,0 +1,16 @@
+.trust-compain {
+}
+
+.trust-compain__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #244d4d;
+}
+
+.trust-compain__list {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}

@@ -4,15 +4,16 @@
 }
 
 .bunner__content {
-  width: 50%;
+  width: 60%;
 
   /* flex-grow: 1; */
   padding-top: 101px;
-  padding-right: 18px;
+  padding-left: 100px;
   padding-bottom: 137px;
 }
 
 .bunner__head {
+  font-weight: 700;
   font-size: 56px;
   color: #fff;
   margin-bottom: 20px;
@@ -30,7 +31,7 @@
 }
 
 .bunner__media {
-  width: 50%;
+  width: 40%;
   flex-shrink: 0;
 }
 
