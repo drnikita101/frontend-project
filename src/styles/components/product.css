@@ -1,0 +1,27 @@
+.product {
+  background-color: var(--white);
+}
+
+.product__img {
+  height: 246px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product__info {
+  margin-top: 30.03px;
+}
+
+.product__title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #242424;
+  margin-bottom: 20.75px;
+}
+
+.product__price {
+  font-weight: 500;
+  font-size: 24px;
+  color: #154444;
+  line-height: 1;
+}

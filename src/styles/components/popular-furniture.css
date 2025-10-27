@@ -1,0 +1,34 @@
+.popular-furniture {
+}
+
+.popular-furniture__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.slider-controls {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.popular-furniture__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.popular-furniture__title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #242424;
+  font-weight: 700;
+}
+
+.popular-furniture__mid {
+  margin-bottom: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #383738;
+}
