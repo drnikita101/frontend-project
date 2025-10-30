@@ -10,8 +10,15 @@
 @import './styles/components/button.css';
 @import './styles/components/section-space.css';
 @import './styles/components/trust-compain.css';
-@import './styles/components/container2.css';
-@import './styles/components/container3.css';
+@import './styles/components/container-two.css';
+@import './styles/components/container-three.css';
 @import './styles/components/bunner-two.css';
 @import './styles/components/popular-furniture.css';
 @import './styles/components/product.css';
+@import './styles/components/container-four.css';
+@import './styles/components/furniture.css';
+@import './styles/components/furniture__head-button.css';
+@import './styles/components/ourcustomers-bunner.css';
+@import './styles/components/signup.css';
+@import './styles/components/container-five.css';
+@import './styles/components/footer.css';

@@ -4,13 +4,20 @@
 }
 
 .bunner-two__media {
+  position: relative;
   width: 60%;
   flex-shrink: 0;
 }
 
-.bunner-two__image {
-  height: 100%;
-  object-fit: cover;
+.bunner-two__image-background {
+  position: absolute;
+  inset: 25px -20px -20px 0;
+  z-index: 1;
+}
+
+.banner-two__image-main {
+  position: relative;
+  z-index: 2;
 }
 
 .bunner-two__content {

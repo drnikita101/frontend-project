@@ -1,0 +1,44 @@
+.furniture__head-button {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.furniture__head-button button {
+  position: relative;
+  background: none;
+  border: none;
+  color: var(--gray-lighter);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 112%;
+  cursor: pointer;
+  padding-bottom: 6.02px;
+}
+
+.furniture__head-button button:hover {
+  color: #154444;
+}
+
+.furniture__head-button button:hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: currentcolor;
+}
+
+.button-shop:hover::after {
+  left: 48.31px;
+  width: 57px;
+}
+
+.button-category:hover::after {
+  left: 65px;
+  width: 57px;
+}
+
+.button-style:hover::after {
+  left: 45px;
+  width: 57px;
+}

@@ -20,3 +20,33 @@
     background-color: #919090;
   }
 }
+
+.button--bunner-sec {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.5px;
+  padding-left: 14.35px;
+  padding-right: 14.5px;
+  background-color: var(--primary-dark);
+  font-size: 12px;
+  line-height: 175%;
+  color: #fff;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #919090;
+  }
+}
+
+.button--bunner-signup {
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #919090;
+  }
+}

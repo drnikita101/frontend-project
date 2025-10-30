@@ -1,0 +1,114 @@
+.furniture {
+}
+
+.furniture__head-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #242424;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.furniture__footer {
+  margin-top: 80px;
+  background-color: var(--white-ice);
+  display: flex;
+}
+
+.furniture-bunner__media {
+  position: relative;
+  width: 60%;
+  flex-shrink: 0;
+}
+
+.furniture-bunner__image-background-one {
+  position: absolute;
+  inset: -10px 0 0 -10px;
+  z-index: 2;
+}
+
+.furniture-bunner__image-background-two {
+  position: absolute;
+  inset: 315px 0 0 373px;
+  z-index: 2;
+}
+
+.furniture-bunner__image-main {
+  position: relative;
+  z-index: 3;
+}
+
+.furniture-bunner__content {
+  margin-top: 40.87px;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.living-room {
+  background-color: var(--white-ice);
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #154444;
+  }
+}
+
+.dining-room :hover {
+  background-color: var(--white-ice);
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #154444;
+  }
+}
+
+.bed-room :hover {
+  background-color: var(--white-ice);
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #154444;
+  }
+}
+
+.kitchen :hover {
+  background-color: var(--white-ice);
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #154444;
+  }
+}
+
+.office :hover {
+  background-color: var(--white-ice);
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #154444;
+  }
+}
+
+.hallway :hover {
+  background-color: var(--white-ice);
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    background-color: #154444;
+  }
+}

@@ -16,7 +16,6 @@
   font-weight: 500;
   font-size: 20px;
   color: #242424;
-  margin-bottom: 20.75px;
 }
 
 .product__price {
@@ -24,4 +23,46 @@
   font-size: 24px;
   color: #154444;
   line-height: 1;
+}
+
+.product__action {
+  display: flex;
+  margin-right: 24.06px;
+  gap: 8px;
+}
+
+.product__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20.75px;
+  margin-left: 24.06px;
+}
+
+.button-like:hover circle {
+  fill: #ef5423;
+}
+
+.button-share:hover circle {
+  fill: var(--blue-light);
+}
+
+.button-like circle {
+  transition: all 0.3s ease;
+}
+
+.button-share circle {
+  transition: all 0.3s ease;
+}
+
+.product__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 27.19px;
+  margin-left: 24.06px;
+}
+
+.product__footer-action {
+  margin-right: 24.06px;
 }
