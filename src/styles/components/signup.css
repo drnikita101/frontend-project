@@ -54,19 +54,6 @@
   z-index: 1;
 }
 
-.button--bunner-signup {
-  position: absolute;
-  right: 19.19px;
-  top: 50%;
-  transform: translateY(-50%);
-  white-space: nowrap;
-  background-color: var(--teal-dark);
-  color: white;
-  border: none;
-  padding: 15px 33.16px;
-  cursor: pointer;
-}
-
 @media (--sm-viewport) {
   .signup__title {
     font-size: 32px;
